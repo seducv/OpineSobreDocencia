@@ -1,0 +1,593 @@
+
+html,h1,h2,h3,h4,h5,h6,p,li,th,tr,td,label,select {
+    color:#555;
+}
+
+
+.required label:after { 
+    content:" *"; 
+    color:#d23e3e;
+
+}
+
+.form-group label:after { 
+    content:" *"; 
+    color:#d23e3e;
+
+}
+
+.form-group .pass-word:after { 
+    content:""; 
+
+}
+
+.form-group .survey-radio label:after { 
+    content:""; 
+
+}
+
+
+
+
+
+.table-label {
+    font-size: 11px; 
+}
+
+.required-field{
+    color:#d23e3e;
+    font-size:14px !important; 
+}
+
+
+.form-box{
+
+    border: 1px solid #bdbdbd;
+    padding: 15px;
+}
+
+
+#footer { height: 50px; 
+    
+     text-align: center;
+    width: 100%;
+    border-top: 1px solid #d8d8d8;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+/*login*/
+.alert-success {
+
+    color: black !important;
+}
+
+
+.osd-text{
+    font-size: 28px;
+}
+
+.login-text{
+    font-size: 31px;
+} 
+.reset-pass{
+    font-size: 15px !important;
+}
+
+.introduction-text p,.introduction-text li{
+
+    font-size: 16px;
+}
+
+.color-login{
+    background: #123456;
+}
+
+.color-title-login{
+    color: #ebeff7 !important;
+}
+
+#logo-login {
+    max-width: 350px !important;
+}
+
+.img-menu img{
+    max-width: 285px;
+    margin: 0 auto; 
+
+}
+
+#logo-login {
+    margin: 0 auto; 
+}
+.login_wrapper {
+    margin-top: 0px !important;
+}
+.fau-logo img{
+    max-width: 90px;
+    margin-top: 10px;
+}
+.logo-ucv-home img{
+    max-width: 180px;
+}
+
+
+#menu_toggle{
+color: #effcff !important
+}
+
+.home-size{
+    font-size: 21px;
+    color: #effcff;
+}
+.pie-chart {
+            width: 1000px;
+            height: 500px;
+            margin: 0 auto;
+        }
+
+th{
+    font-size: 14px;
+}
+
+tr {
+    font-size: 12px;
+}
+
+.admin-dash{
+
+    position: fixed !important;
+}
+
+
+.sean {
+    width: 100%;
+}
+.contenido{
+    width: 200px;
+    height: 200px;
+    background:blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.interna{
+    width: 50px;
+    height: 50px;
+    background: green;
+}
+
+.full-width{
+
+    width: 100%;
+}
+
+.flex-item{
+    display: flex;
+}
+
+.rules{
+
+    position: fixed;
+    background: #b7d2ff;
+    border: 1px solid #555;
+}
+.rules p{
+
+    color: black;
+    font-size: 15px;
+}
+.rules h2{
+    font-size: 22px;
+    color:black;
+    font-weight: 600;
+}
+
+.pdd-b {
+    padding-bottom: 50px;
+}
+
+.top-10 {
+	margin-top: 10px;
+}
+.top-20 {
+	margin-top: 20px !important;
+}
+.top-30 {
+	margin-top: 30px;
+}
+.top-40 {
+	margin-top: 40px;
+}
+.top-50 {
+	margin-top: 50px;
+}
+.top-60{
+    margin-top: 60px;
+}
+.top-100{
+    margin-top: 100px;
+}
+
+/*********** ADMIN  DASHBOARD*************/
+
+.welcome-text  {
+    font-size: 20px !important;
+}
+
+#logo-menu-side {
+    max-height: 100%;
+    width: 85%;
+    margin-top: 15px;
+}
+.site_title{
+    height: auto;
+}
+
+.site_title {
+text-align: center;
+
+}
+
+
+.pdd-select{
+    padding: 8px; 
+
+}
+
+.profile_info h2 {
+    font-size: 15px;
+   
+}
+
+.loadFile p{
+
+    font-size: 16px;
+}
+
+.size-file{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.pagination > .active > span{
+    background-color: #2A3F54;
+    border-color: #2A3F54;
+}
+
+
+.menu-hr{
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.size-p p {
+    font-size: 18px;
+}
+
+.size-p h3{
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.succes-message {
+    font-size: 17px;
+}   
+
+
+.img-circle.profile {
+    width: 90%;
+    /*background: #fff;*/
+    margin-left: 5%;
+    z-index: 1000;
+    position: inherit;
+    margin-top: 20px;
+    border: 1px solid rgba(52, 73, 94, 0.44);
+    border-radius: 0;
+}
+.button-form {
+    min-width: 100px;
+}
+.profile_info span {
+    font-size: 15px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.profile_info h4{
+    color:#fff;
+    font-size: 17px;
+}
+
+/*************Encuesta***********/
+/*.dates{
+    display: none;
+}*/
+.survey-active{
+    color:#19b119;
+}
+.survey-disable{
+    color:#e81818;
+}
+.alert-success {
+    background-image: linear-gradient(to bottom, #bbf9a3 0%, #9eef7c 100%)
+}
+
+.btn-bottom{
+    vertical-align:bottom;
+}
+.add-more{
+    margin-bottom: 0px;
+}
+.add-button{
+
+    background: #4cae4c;
+}
+.add-button:hover, .add-button:active,.add-button:focus,{
+    background:#4cae4c;
+}
+
+.button-form a:hover{
+    color: #fff;
+}
+
+.teachers-form{
+    font-size: 18px;
+    color:#555;
+}
+
+
+input[type="checkbox"] {
+    margin: 4px 5px 0;
+}
+
+
+.add-questions{
+    color: #fff;
+}
+
+.instructions{
+    font-size: 16px;
+}
+
+.message {
+    font-size: 16px;
+    color: black;
+}
+/*************End Encuesta***********/
+
+
+
+/*************Materias***********/
+
+.subject-font{
+
+    font-size: 12px;
+}
+
+.subject-width{
+    width: 30%;
+}
+.subject-width-semester{
+    width: 20%;
+}
+.subject-remove{
+    margin-bottom: 0px;
+}
+
+/*************End Materias***********/
+
+.logo-finish-left  {
+    width: 280px;
+}
+.logo-finish-right {
+    width: 240px;
+}
+.row-finish {
+    display: flex;
+    align-items: center;
+}
+
+.foot {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;
+}
+
+.foot p {
+    font-size: 20px;
+}
+
+/***********END ADMIN  DASHBOARD*************/
+
+
+
+/***********FORMULARIO ENCUESTA*************/
+
+.survey-radio{
+    margin-left: 25px;
+}
+
+.question-survey {
+
+    font-size: 16px;
+    color: #555;
+}
+
+.teacher-question{
+    font-weight: 600;
+    color: #555 !important;
+    font-size: 20px;
+    border-bottom: 1px solid #555;
+}
+
+.close {
+    filter: alpha(opacity=20);
+    opacity: .5;
+}
+
+input[type="radio"] {
+    margin: 4px 4px 0;
+}
+
+.size-final h3{
+
+    font-size: 60px !important;
+}
+/***********END FORMULARIO ENCUESTA*************/
+
+
+
+/* CHARTJS*/
+#error-chart {
+    display: none;
+}
+
+#error-chart p{
+
+    font-size: 16px;
+    color:red;
+}
+
+#error-consulta {
+    display: none;
+}
+
+#error-consulta , #error-consulta p{
+
+    font-size: 16px;
+    color:red;
+}
+
+
+.table-bordered th{
+    font-size: 12px;
+    height: 100px;
+}
+
+
+.table > thead > tr > th {
+    vertical-align: middle;
+    border-bottom: 2px solid #ddd;
+}
+
+.label-table {
+    width: 100%;
+    height: 30px;
+    display: none;
+}
+
+.background{
+    color:#fff;
+    background: #2A3F54;
+    text-align: center;
+    font-size: 15px;
+}
+.count-teacher{
+    color: #73879C;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+}
+#question-content{
+    text-align: center;
+
+}
+
+#question-content p{
+    
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+
+#count-content{
+
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.question-p {
+    font-size: 20px !important; 
+}
+/* */
+
+
+/* REPORTES*/
+
+
+.fa-square:before {
+    content: "\f0c8";
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.report p, .report h3, .report td{
+
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+.low-evaluation{
+    color:red;
+}
+
+.high-evaluation{
+    color:blue;
+}
+
+.mg-0 p{
+    color:black;
+    margin:0px; 
+}
+
+.destacado{
+    color:#3660c7;
+} 
+.mejorable{
+    color:#555;
+}
+
+.bajo{
+    color:#ef4343;
+}
+.table-report{
+    margin-bottom: 0px !important;
+}
+
+.table-report td{
+    font-size: 15px;
+}
+
+
+
+
+/*MEDIA QUERIES */
+
+
+/* Tablet pequeña y telefonos*/
+
+@media (max-width: 768px) {
+    
+.pdd-select{
+
+    width: 100%;
+
+}
+.table-label {
+    display: none;
+}
+
+.rules{
+    display: none;
+}
+
+.size-final h3 {
+
+    font-size: 35px !important;
+}
+
+}
